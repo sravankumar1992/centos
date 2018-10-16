@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# well this is a no change to what i am ndoing 
 #script for while loop with a usage of trap command to see how this wil trap signals and exit cleanly.
 
 #trap 'echo "EXITING ON A TRAPPED SIGNAL";exit' 1 2 3 15 
