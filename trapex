@@ -1,0 +1,8 @@
+#!/bin/bash
+
+#script for while loop with a usage of trap command to see how this wil trap signals and exit cleanly.
+
+#trap 'echo "EXITING ON A TRAPPED SIGNAL";exit' 1 2 3 15 
+trap 'echo -e "\nEXITING ON A TRAPPED SIGNAL";exit 10 ' 1 2 3 15 
+while true; do echo sravan;done 
+
